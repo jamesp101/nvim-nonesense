@@ -52,6 +52,8 @@ Plug 'Shougo/neco-syntax'
 
 Plug 'tpope/vim-commentary'
 Plug 'pangloss/vim-javascript' , {'for': 'javascript'}
+
+Plug 'vim-scripts/vim-auto-save'
 call plug#end()
 
 execute 'source' g:configPath . 'langserver.vim' 
