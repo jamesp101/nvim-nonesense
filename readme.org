@@ -1,15 +1,16 @@
-* Hello
-sample config
+* My NeoVIM configuration file
+My NeoVIM config files
+
+Tested only on windows 7.
 
 
-
-** DONE HELLO WORLD							    :Hello World:
-      - [X] Hello World
-      -  Hew
-      - [X] yes my love to you
-      - [ ] 
-      - [ ] 
-
-
-
-
+** TODO: Things to add so I won't forget
+      - [ ] Linux Support
+      - [-] Install scripts
+            - [-] Windows
+                  - [-] For dependencies
+                         - Somewhat
+            - [ ] Linux
+      - [ ] Better snippets
+      - [ ] Better keybindings
+      - [ ] Add C#

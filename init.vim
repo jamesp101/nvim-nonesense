@@ -1,4 +1,6 @@
- let g:configPath='~/AppData/Local/nvim/' 
+let g:configPath='~/AppData/Local/nvim/' 
+
+let g:node_path='C:/Users/'. $username . '/' . 'AppData/Roaming/npm/'
 
 
 call plug#begin(g:configPath . 'autoload')
@@ -7,12 +9,11 @@ call plug#begin(g:configPath . 'autoload')
 Plug 'prabirshrestha/async.vim'
 
 
-Plug 'prabirshrestha/vim-lsp'
+" Plug 'prabirshrestha/vim-lsp'
 
 Plug 'scrooloose/nerdtree'
 
-Plug 'thalesmello/webcomplete.vim'
-Plug 'mattn/emmet-vim', {'for' : ['html', 'css']}
+Plug 'mattn/emmet-vim', {'for' : ['html', 'css' ,'htmldjango']}
 
 
 Plug 'joereynolds/vim-minisnip'
@@ -21,7 +22,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'w0rp/ale'
 
 Plug 'mhinz/vim-signify'
-Plug 'Shougo/denite.nvim'
 
 Plug 'gregsexton/Atom'
 Plug 'jdsimcoe/abstract.vim'
@@ -46,7 +46,6 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'powershell -executionpolicy bypass -File install.ps1',
     \ }
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neco-syntax'
 
 
@@ -54,6 +53,14 @@ Plug 'tpope/vim-commentary'
 Plug 'pangloss/vim-javascript' , {'for': 'javascript'}
 
 Plug 'vim-scripts/vim-auto-save'
+Plug 'flazz/vim-colorschemes'
+
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+
+Plug 'Shougo/neco-vim'
+
 call plug#end()
 
 execute 'source' g:configPath . 'langserver.vim' 

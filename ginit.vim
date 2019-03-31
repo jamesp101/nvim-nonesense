@@ -1,6 +1,7 @@
 :set background=dark
+" :colorscheme 
+:colorscheme vimbrains
 
-:colorscheme atom
 
 ":execute 'GuiFont! Inconsolata_NF'
 "
@@ -10,15 +11,15 @@ set wildmenu
 set showmatch
 set cursorline
 
-set linespace=6
+set linespace=8
 
 
 
 GuiTabline 0
-GuiFont! SpaceMono NF:h9
+GuiFont! InconsolataGO NF:h12
 
-:AirlineTheme lucius
+:AirlineTheme base16
 
-
+:GuiPopupmenu 0
 
 
